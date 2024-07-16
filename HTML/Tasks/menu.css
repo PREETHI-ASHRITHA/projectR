@@ -1,0 +1,116 @@
+.parent{
+    /* width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    z-index: -1px; */
+    position: relative;
+}
+.c1{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid red;
+}
+.c2{
+    position: absolute;
+    top: 40px;
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px solid black; */
+    display: none;
+}
+.parent:hover{
+    width:500px;
+    height: 500px;
+}
+.parent:hover .c2{
+    display: block;
+
+}
+.parent:hover .c3{
+    display: block;
+}
+
+.parent:hover .c3{
+    display: block;
+}
+
+.c3{
+    position: absolute;
+    top: 80px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid red;
+}
+
+ .c4{
+    position: absolute;
+    top: 120px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid red;
+}
+/*.c5{
+    position: absolute;
+    top: 200px;
+    width: 200px;
+    height: 100px;
+    border: 2px solid red;
+}
+.c6{
+    position: absolute;
+    top: 300px;
+    width: 200px;
+    height: 100px;
+    border: 2px solid red;
+} */
+.desserts{
+    position: absolute;
+    top: 400px;
+    width: 200px;
+    height: fit-content;
+    border: 2px solid black;
+    display: none;
+}
+.c2:hover .desserts{
+    display:block;
+}
+.starters{
+    position: absolute;
+    top: 500px;
+    width: 200px;
+    height: fit-content;
+    border: 2px solid black;
+    /* display: none; */
+ } 
+.c2:hover .starters{
+    display: block;
+}
+/* .biriyani{
+    position: absolute;
+    top: 600px;
+    width: 200px;
+    height: fit-content;
+    border: 2px solid black;
+    /* display: none; */
+/* } */
+/* .icecreams{
+    position: absolute;
+    top: 700px;
+    width: 200px;
+    height: fit-content;
+    border: 2px solid black;
+    /* display: none; */
+/* }  */
+/* .c2:hover .c4{
+    display: block;
+
+}
+.c2:hover .c5{
+    display: block;
+
+}
+.c2:hover .c6{
+    display: block;
+
+} */

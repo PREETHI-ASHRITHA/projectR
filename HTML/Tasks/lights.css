@@ -1,0 +1,294 @@
+.main{
+    height: 100%;
+    width: 70svw;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 3px 2px white;
+    margin-left: 14%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    position: relative;
+    top: 5%;
+    
+}
+.child{
+    height: 50svh;
+    width: 16svw;
+    background-color: white;
+    box-shadow: 2px 2px 3px 2px rgb(225, 222, 222);
+    border-radius: 10%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+    position: relative;
+}
+.child:hover{
+    height: 51svh;
+    width: 17svw;
+}
+.name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+.no{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+.strip{
+    width: 3px ;
+    height: 50px;
+    border: 1px solid black;
+    background-color: black;
+    position: absolute;
+    top: 35px;
+    left: 0px;
+}
+/* .child2{
+    height: 50svh;
+    width: 16svw;
+    background-color: white;
+    box-shadow: 2px 2px 3px 2px rgb(225, 222, 222);
+    border-radius: 10%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}
+.child2:hover{
+    height: 51svh;
+    width: 17svw;
+}
+.name2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+.no2{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+.child3{
+    height: 50svh;
+    width: 16svw;
+    background-color: white;
+    box-shadow: 2px 2px 3px 2px rgb(225, 222, 222);
+    border-radius: 10%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}
+.child3:hover{
+    height: 51svh;
+    width: 17svw;
+}
+.name3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+.no3{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+.child4{
+    height: 50svh;
+    width: 16svw;
+    background-color: white;
+    box-shadow: 2px 2px 3px 2px rgb(225, 222, 222);
+    border-radius: 10%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}
+.child4:hover{
+    height: 51svh;
+    width: 17svw;
+}
+.name4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+.no4{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+.child5{
+    height: 50svh;
+    width: 16svw;
+    background-color: white;
+    box-shadow: 2px 2px 3px 2px rgb(225, 222, 222);
+    border-radius: 10%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}
+.child5:hover{
+    height: 51svh;
+    width: 17svw;
+}
+.name5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+.no5{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+.child6{
+    height: 50svh;
+    width: 16svw;
+    background-color: white;
+    box-shadow: 2px 2px 3px 2px rgb(225, 222, 222);
+    border-radius: 10%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}
+.child6:hover{
+    height: 51svh;
+    width: 17svw;
+}
+.name6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+.no6{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+.child7{
+    height: 50svh;
+    width: 16svw;
+    background-color: white;
+    box-shadow: 2px 2px 3px 2px rgb(225, 222, 222);
+    border-radius: 10%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}
+.child7:hover{
+    height: 51svh;
+    width: 17svw;
+}
+.name7{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+.no7{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+.child8{
+    height: 50svh;
+    width: 16svw;
+    background-color: white;
+    box-shadow: 2px 2px 3px 2px rgb(225, 222, 222);
+    border-radius: 10%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}
+.child8:hover{
+    height: 51svh;
+    width: 17svw;
+}
+.name8{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+.no8{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+.child9{
+    height: 50svh;
+    width: 16svw;
+    background-color: white;
+    box-shadow: 2px 2px 3px 2px rgb(225, 222, 222);
+    border-radius: 10%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    cursor: pointer;
+}
+.child9:hover{
+    height: 51svh;
+    width: 17svw;
+}
+.name9{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+.no9{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    font-size: 22px;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+} */

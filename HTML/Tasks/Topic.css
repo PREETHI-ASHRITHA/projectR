@@ -1,0 +1,85 @@
+.main{
+    height: 97svh;
+    width: 98svw;
+    background-color: white;
+    position: relative;
+}
+.first{
+    height: 48svh;
+    width: 98svw;
+    background: linear-gradient(to top right, #16587B,#7FCCC6);
+}
+.second{
+    height: 49svh;
+    width: 98svw;
+    background-color: #82CFC7;
+}
+.topic{
+    height: 50px;
+    width: 200px;
+    font-size: 40px;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.home{
+    height: 30px;
+    width: 75px;
+    color: rgb(4, 68, 90);
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.browse{
+    height: 30px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left: 450px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.how{
+    height: 30px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left: 650px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.faqs{
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left: 850px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.con{
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left: 950px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pages{
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50px;
+    left: 1100px;
+    font-family: 'Times New Roman', Times, serif;
+}

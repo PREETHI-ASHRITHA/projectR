@@ -1,0 +1,124 @@
+.main{
+    width: 60%;
+    height: 98svh;
+    background-color: whitesmoke;
+    position: relative;
+    left: 20%;
+}
+.front{
+    width: 98%;
+    height: 46%;
+    background-color: white;
+    border: 12px groove gold;
+    position: absolute;
+    background: linear-gradient(to top right, #3B1B5D,#8C1BAB, white);
+}
+.back{
+    width: 98%;
+    height: 46%;
+    background: linear-gradient(to top right, #3B1B5D,#8C1BAB, white);
+    border: 12px groove gold;
+    position: absolute;
+    bottom: 0px;
+}
+.logo{
+    height: 30%;
+    width: 70%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+.mem{
+    height: 50%;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: goldenrod;
+    font-size: 40px;
+    font-weight: 50%;
+}
+.pic{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    border: 7px groove black;
+}
+.owl{
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    border: 7px groove black;
+}
+.add{
+    height: 20%;
+    width: 50%;
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: 20%;
+}
+.log{
+    height: 10%;
+    width: 20%;
+    position: absolute;
+    top: 10%;
+    left: 65%;
+}
+.name{
+    height: 20%;
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: 20%;
+}
+.issue{
+    height: 20%;
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: 20%;
+}
+.exp{
+    height: 20%;
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: 20%;
+}
+.no{
+    height: 20%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: 20%;
+}
+.code{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+.sign{
+    height: 20%;
+    width: 30%;
+    position: absolute;
+    top: 70%;
+    left: 68%;
+    color: goldenrod;
+    font-size: 35px;
+    font-weight: 50%;
+}

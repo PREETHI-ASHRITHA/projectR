@@ -1,0 +1,118 @@
+/* body{
+    background-image: url("galaxy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.moon{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid rgb(99, 100, 101);
+    box-shadow: 2px 3px 2px  rgb(109, 110, 110);
+    background: linear-gradient(to top right ,rgb(230, 230, 235),rgb(113, 113, 120),rgb(121, 121, 122));
+    position: fixed;
+    top: 250px;
+}
+.axis{
+    height: 500px;
+    width: 800px;
+    border-radius: 70%;
+    border: 1px solid white;
+    position: absolute;
+    top: 70px;
+}
+.earth{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(63, 60, 106);
+    background-color: rgb(39, 39, 69);
+    position: absolute;
+    top: 15%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+} */
+
+body{
+    background-image: url("galaxy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(244, 244, 242);
+    box-shadow: 3px 3px 5px grey;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.orbit {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: rotate 10s linear infinite;
+}
+
+.earth {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    top: -13px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@keyframes rotate {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}

@@ -1,0 +1,562 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex; */
+
+    /* align-items: center;
+    justify-content: center; */
+
+    /* width: 100svw;
+    height: 100svh;
+    position: relative;
+}
+header{
+    width: 100svw;
+    height: 20%;
+    background-color: grey ;
+    z-index: 2; */
+
+    /* display: flex;
+    position: sticky; */
+
+}
+/* img{
+    height: 15%;
+    width: 10%;
+    position: absolute;
+    left: 3%;
+    top: 3%;
+}
+.home{
+    height: 10%;
+    width: 7%;
+    position: absolute;
+    top: 6%;
+    left: 20%;
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 5%;
+}
+.home:hover{
+    border-bottom: 5px solid red;
+}
+.product{
+    height: 10%;
+    width: 9%;
+    position: absolute;
+    top: 6%;
+    left: 30%;
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 5%;
+}
+.product:hover{
+    border-bottom: 5px solid red;
+}
+.brand{
+    height: 10%;
+    width: 7%;
+    position: absolute;
+    top: 6%;
+    left: 42%;
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 5%;
+}
+.brand:hover{
+    border-bottom: 5px solid red;
+}
+.inspiration{
+    height: 10%;
+    width: 12%;
+    position: absolute;
+    top: 6%;
+    left: 52%;
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 5%;
+}
+.inspiration:hover{
+    border-bottom: 5px solid red;
+}
+.support{
+    height: 10%;
+    width: 9%;
+    position: absolute;
+    top: 6%;
+    left: 67%;
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 5%;
+}
+.support:hover{
+    border-bottom: 5px solid red;
+}
+.bg{
+    background-image: url("home.jpg");
+    width: 100svw;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.txt{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 25px;
+    font-weight: 20;
+    color: white;
+}
+.plain{
+    width: 100svw;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.exp{
+    position: absolute;
+    top: 13%;
+    left: 24%;
+    font-size: 25px;
+    font-weight: 15;
+    color: black;
+}
+.our{
+    position: absolute;
+    top: 13%;
+    left: 33%;
+    font-size: 25px;
+    font-weight: 15;
+    color: rgb(215, 30, 30);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column; 
+}
+.parent{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    border-bottom: 2px solid white;
+    display: flex;
+    opacity: 0.7;position: fixed;
+}
+.child1{
+    z-index: -9999;
+
+}
+.navbar{
+    width: 60%;
+    /* background-color: skyblue; */
+    display: flex;
+}
+.Options_max_screen{
+    display: flex;
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    top: 25px;
+    left: 35%;
+    
+}
+.Options_max_screen div{
+    padding: 5px 10px;
+}
+.Home:hover{
+    border-bottom:2px solid red ;
+}
+.Product:hover{
+    border-bottom:2px solid red ;
+}
+.Brand:hover{
+    border-bottom:2px solid red ;
+}
+.Inspriation:hover{
+    border-bottom:2px solid red ;
+}
+.Support:hover{
+    border-bottom:2px solid red;
+}
+.child2{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    /* background-color: red; */
+    border: 2px solid red;
+    color:black;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: darkred;
+}
+
+.response .content {
+    display: none;
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.response .content:target {
+    display: block;
+}
+.child3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.but1{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid black;
+    font-size: large;
+}
+.but1:hover{
+    background-color: aqua;
+}
+.img1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap: 50px; */
+}
+.img3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 50px; */
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+ .imggg{
+    display:flex;
+    flex-direction: column;
+} 
+.imgg3{
+    display:flex;
+    flex-direction: column;
+} 
+.solid{
+    justify-content: space-between;
+}
+
+.icon{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    height: 100%;
+    display: none;
+}
+
+.sel{
+    position: absolute;
+    background-color: blue;
+    font-size: 30px;
+    width: 300px;
+    height: 200px;
+    z-index: 99;
+    position: relative;
+    right: 100px;
+}
+.sel:hover{
+    background-color: aqua;
+    border-bottom: 2px solid red;
+
+}
+.Home:hover{
+    border-bottom: 2px solid red;
+}
+.Product:hover{
+    border-bottom: 2px solid red;
+}
+.Brand:hover{
+    border-bottom: 2px solid red;
+}
+.Inspriation:hover{
+    border-bottom: 2px solid red;
+}
+.Support:hover{
+    border-bottom: 2px solid red;
+}
+select{
+    display: none;
+}
+
+.icon:hover .sel{
+    display: block;
+}
+@media screen and (max-width:600px){
+    .Options_max_screen{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+}
+
+.ch1{
+    width: 100%;
+    height: 20%;
+    background-color: gray;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: -9999;
+}
+.btn1 {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: gray;
+    /* border: 2px solid red; */
+    color:black;
+    cursor: pointer;
+    font-size: 40px;
+    text-decoration: none;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+}
+
+.btn1:hover {
+    background-color: darkred;
+}
+.btn2 {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: gray;
+    /* border: 2px solid red; */
+    color:black;
+    cursor: pointer;
+    font-size: 40px;
+    text-decoration: none;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+.btn2:hover {
+    background-color: darkred;
+}
+.btn3 {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: gray;
+    /* border: 2px solid red; */
+    color:black;
+    cursor: pointer;
+    font-size: 40px;
+    text-decoration: none;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    left: 140px;
+}
+
+.btn3:hover {
+    background-color: darkred;
+}
+.btn4 {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: gray;
+    /* border: 2px solid red; */
+    color:black;
+    cursor: pointer;
+    font-size: 40px;
+    text-decoration: none;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    left: 190px;
+    
+}
+
+.btn4:hover {
+    background-color: darkred;
+}
+.m1{
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 50px;
+
+}
+.parent1{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+.last{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last img{
+    width: 250px;
+    height: 300px;
+    transform: rotate(40deg);
+    position: relative;
+    top: 50px;
+}
+.last1{
+    width: 50%;
+    height: 70%;
+    gap: 50px;
+}
+.b1{
+    width: 150px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left:100px ;
+}
+.b2{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left:50px ;
+}
+.b3{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left:50px ;
+}
+.b4{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border:2px solid red;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left:50px ;
+    text-align: center;
+    align-content: center;
+}
+@media (max-width:1050px){
+    .Parent1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .last img{
+        width: 80%;
+        height: 80%;
+        row-gap: 40px;
+        margin-left: 60%;
+
+    }
+    .b1{
+        width: 150%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .b2{
+        width: 150%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .b3{
+        width: 150%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .b4{
+        width: 150%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .p1{
+        width: 150%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .x{
+        width: 150%;
+        text-align: center;
+        margin-top: 50px;
+    }
+}

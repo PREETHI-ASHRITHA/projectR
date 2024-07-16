@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BEFORE AFTER</title>
+        <style>
+            /* .parent{
+                list-style-type: none;
+            }
+            .parent li::before{
+              content: "ASHU";
+            } */
+
+
+             /* button{
+                height: 50px;
+                width: 100px;
+                background-color: skyblue;
+                position: relative;
+                border-radius: 50px;
+             }
+             button::before{
+                content: "";
+                position: absolute;
+                top: 0;
+                background-color: red;
+                width: 100%;
+                height: 100%;
+                left: 100px;
+             }
+             button:hover::before{
+                background-color: black;
+             } */
+
+
+             /* body{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+             } */
+             button{
+                width: fit-content;
+                height: 25px;
+                background-color: violet;
+                color: white;
+                /* border-radius: 50px; */
+                position: relative;
+                overflow: hidden;
+                border: none;
+                transform: skew(20deg);
+             }
+             button:hover{
+                color: black;
+                z-index: 9999;
+             }
+             button::before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: -100px;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(skyblue,rgb(73, 73, 181));
+                /* border-radius: 50px; */
+                transition: all 1s;
+                cursor: pointer;
+                transform: skew(5px);
+             }
+             button:hover::before{
+                left: 0;
+                z-index: -9999;
+             }
+        </style>
+    </head>
+    <body>
+        <!-- <div class="parent">
+        <ul>
+            <li> Haii</li>
+            <li> Haii</li>
+            <li> Haii</li>
+            <li> Haii</li>
+        </ul>
+        </div> -->
+
+
+        <!-- <button>Click Here</button> -->
+
+        <button>Click Me..!!</button>
+    </body>
+</html>

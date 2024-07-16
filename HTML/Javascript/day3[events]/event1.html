@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Event</title>
+        <script src="event1.js"></script>
+        <link rel="stylesheet" href="event1.css"/>
+    </head>
+    <body>
+        <div class="parent"></div>
+        <label>Firstname:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" value="" onchange="firstname(event)" class="h"/><br>
+        <label>Secondname:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" value="" onchange="secondname(event)" class="h"/><br>
+        <label>Date of birth:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="date" value="" onchange="dates(event)" class="h"/><br>
+        <label>Age:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" value="" onchange="age(event)" class="h"/><br>
+        <label>Mother Name:</label>&nbsp;&nbsp;&nbsp;
+        <input type="text" value="" onchange="mname(event)" class="h"/><br>
+        <label>Father Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" value="" onchange="fname(event)" class="h"/><br>
+        <label>Address:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" value="" onchange="address(event)" class="h"/><br>
+        <label>Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <select value="" onchange="gender(event)" class="h">
+            <option>Female</option>
+            <option>Male</option>
+        </select><br>
+        <label class="h">certifications:</label>
+        <textarea type="text" value="" onchange="certification(event)" class="h"></textarea><br><br>
+        <label>Academic details</label>
+        <table border="2px" class="main">
+            <tr>
+                <td>Name of Institution</td>
+                <td>year of pass</td>
+                <td>percentage</td>
+                <td>Place</td>
+            </tr>
+            <tr>
+                <td>Pratyusha school</td>
+                <td><input type="text" value="2022" onchange="year(event)"/></td>
+                <td><input type="number" value="89" onchange="per(event)"/></td>
+                <td><input type="text" value="mamidada" onchange="place(event)"></td>
+            </tr>
+            <tr>
+                <td>Sri sai aditya junior college</td>
+                <td><input type="text" value="2022" onchange="years(event)"/></td>
+                <td><input type="number" value="89" onchange="pers(event)"/></td>
+                <td><input type="text" value="mamidada" onchange="places(event)"></td>
+            </tr>
+            <tr>
+                <td>Aditya college of engineering and technology</td>
+                <td><input type="text" value="2022" onchange="yearss(event)"/></td>
+                <td><input type="number" value="89" onchange="perss(event)"/></td>
+                <td><input type="text" value="mamidada" onchange="placess(event)"></td>
+            </tr>
+        </table>
+        <label>Skills:</label>
+        <textarea type="text" value="" onchange="skills(event)" class="h"></textarea><br>
+        <label>Hobbies:</label>
+        <textarea type="text" value="" onchange="hobbies(event)" class="h"></textarea><br>
+        <label>Profile pic:</label>
+        <input type="file" value="" onchange="profile(event)" class="h"><br><br>
+        <label>Badges:</label>
+        <textarea type="text" value="" onchange="(event)" class="h"></textarea><br>
+        <label>Description:</label>
+        <textarea type="text" value="" onchange="description(event)" class="h"></textarea><br>
+            <button  onclick="func(obj)">Submit</button>
+        </div>
+    </body>
+</html>

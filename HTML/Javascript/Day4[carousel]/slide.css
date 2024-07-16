@@ -1,0 +1,45 @@
+body{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    width: 60%;
+    height: 50%;
+    /* border: 1px solid black; */
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.child{
+    width: 25%;
+    height: 70%;
+    /* border: 5px groove black;
+    justify-content: center;
+    background-color: rgb(234, 221, 156); */
+    
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slick-slider{
+    width: 70svw;
+    height: 20svh;
+}
+ul button{
+    display: none;
+}
+.slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+}

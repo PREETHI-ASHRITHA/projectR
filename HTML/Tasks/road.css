@@ -1,0 +1,384 @@
+.main{
+    height: 670px;
+    width: 1450px;
+    position: relative;
+}
+.way{
+    height: 200px;
+    width: 1450px;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+}
+.child2{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-top: 120px;
+    float:left;
+}
+.child3{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-top: 120px;
+    margin-left:30px;
+    float:left;
+
+}
+.child4{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+
+
+}
+.child5{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+
+
+}
+.child6{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+}
+.child7{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+}
+.child8{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+}
+.child9{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+}
+.child10{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+}
+.child11{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+}
+.child12{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+}
+.child13{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+}
+.child14{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+}
+.child15{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+}
+.child16{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+}
+.child17{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+}
+.child18{
+    width: 50px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+}
+.child19{
+    width: 30px;
+    height: 10px;
+    border: 2px solid white;
+    background-color: aliceblue;
+    margin-left: 30px;
+    margin-top: 120px;
+    float: left;
+}
+.box1{
+    width: 250px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
+    left: 150px;
+}
+.round1{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    left: 185px;
+    top: 35px;
+}
+.round2{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    left: 285px;
+    top: 35px;
+}
+.sky{
+    height: 470px;
+    width: 1450px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+}
+.box2{
+    width: 150px;
+    height: 50px;
+    background-color: brown;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+}
+.light1{
+    width: 30px;
+    height: 25px;
+    border: 1px solid black;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    float: right;
+    background-color: blue;
+}
+.light2{
+    width: 30px;
+    height: 25px;
+    border: 1px solid black;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    float: right;
+    position: absolute;
+    top: 25px;
+    right: 0;
+    background-color: blue;
+}
+.cloud1{
+    width: 110px;
+    height: 100px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    position:absolute;
+    top: -50px;
+    left: 0px;
+}
+.cloud2{
+    width: 105px;
+    height: 100px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    position:absolute;
+    top: -70px;
+    left: 80px;
+}
+.cloud3{
+    width: 160px;
+    height: 100px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    position:absolute;
+    top: -60px;
+    left: 140px;
+}
+.cloud4{
+    width: 140px;
+    height: 100px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    position:absolute;
+    top: -50px;
+    left: 200px;
+}
+.cloud5{
+    width: 180px;
+    height: 100px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    position:absolute;
+    top: -40px;
+    left: 280px;
+}
+.cloud6{
+    width: 190px;
+    height: 100px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    position:absolute;
+    top: -50px;
+    left: 400px;
+}
+.cloud7{
+    width: 180px;
+    height: 100px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    position:absolute;
+    top: -40px;
+    left: 500px;
+}
+.cloud8{
+    width: 190px;
+    height: 100px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    position:absolute;
+    top: -60px;
+    left: 600px;
+}
+.cloud9{
+    width: 180px;
+    height: 100px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    position:absolute;
+    top: -50px;
+    left: 750px;
+}
+.cloud10{
+    width: 190px;
+    height: 100px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    position:absolute;
+    top: -40px;
+    left: 900px;
+}
+.cloud11{
+    width: 190px;
+    height: 100px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    position:absolute;
+    top: -50px;
+    left: 1050px;
+}
+.cloud12{
+    width: 190px;
+    height: 100px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    position:absolute;
+    top: -60px;
+    left: 1200px;
+}
+.cloud13{
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+    position:absolute;
+    top: -40px;
+    left: 1350px;
+}
+.sun{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow: 2px 2px 30px 10px rgb(235, 196, 69);
+    float: right;
+    position: absolute;
+    top: 16px;
+    right: 300px;
+} 

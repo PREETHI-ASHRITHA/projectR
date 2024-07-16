@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BUTTONS</title>
+        <style>
+            body{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            button{
+                
+                width: 100px;
+                height: 50px;
+                background-color: violet;
+                color: white;
+                
+                /* border-radius: 50px; */
+                position: relative;
+                overflow: hidden;
+                border: none;
+                transform: skew(20deg);
+             }
+             button:hover{
+                color: rgb(227, 27, 27);
+                z-index: 9999;
+             }
+             button::before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: -100px;
+                width: 100px;
+                height: 50px;
+                background-image: url("galaxy.jpg");
+                /* border-radius: 50px; */
+                transition: all 1s;
+                cursor: pointer;
+                transform: skew(5px);
+             }
+             button:hover::before{
+                left: 0;
+                z-index: -9999;
+             }
+        </style>
+    </head>
+    <body>
+        <button>Hello</button>
+    </body>
+</html>

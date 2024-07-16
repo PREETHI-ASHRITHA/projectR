@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TRANSITIONS</title>
+        <style>
+          .parent{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            transition-property: all;
+            transition-duration: 2s;
+            transition-timing-function: linear;
+          }
+          .parent:hover{
+            width: 600px;
+            height: 600px;
+            background:linear-gradient(violet,skyblue);
+            border-radius: 50%;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="parent"></div>
+    </body>
+</html>

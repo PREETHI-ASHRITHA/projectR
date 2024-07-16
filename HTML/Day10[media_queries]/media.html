@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MEDIA QUERIES</title>
+        <style>
+           /* .hai{
+            width: 500px;
+            height: 500px;
+            font-size: 32px;
+            background-color: violet;
+           }
+           @media screen and (min-width:500px){
+            .hai{
+
+            }
+           } */
+
+        .navbar{
+            width: 100%;
+            background-color: skyblue;
+            display: flex;
+        }
+        .Options_max_screen{
+            display: flex;
+            font-size: 35px;
+        }
+        .Options_max_screen div{
+            padding: 5px 10px;
+        }
+        select{
+            display: none;
+        }
+        @media screen and (max-width:500px){
+            .Options_max_screen{
+                display: none;
+            }
+            select{
+                display: block;
+            }
+        }
+        </style>
+    </head>
+    <body>
+        <!-- <div class="hai">Click Me</div> -->
+
+        <div class="navbar">
+            <div class="Options_max_screen">
+                <div>Option1</div>
+                <div>Option2</div>
+                <div>Option3</div>
+                <div>Option4</div>
+            </div>
+            <select>
+                <option>option1</option>
+                <option>option2</option>
+                <option>option3</option>
+                <option>option4</option>
+            </select>
+        </div> 
+    </body>
+</html>

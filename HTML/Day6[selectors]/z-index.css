@@ -1,0 +1,13 @@
+.parent{
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgba(230, 145, 70, 0.815);
+    z-index: -1px;
+    position: relative;
+    color: rgb(23, 238, 127);
+}
+.parent img{
+    position:absolute;
+    top: 0;
+    z-index:-1
+}

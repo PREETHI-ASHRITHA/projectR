@@ -1,0 +1,252 @@
+.main{
+    height: 96svh;
+    width: 99svw;
+    background-color: whitesmoke;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width: 99svw;
+    height: 7svh;
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    display: flex;
+    /* align-self: center; */
+    justify-content:center;
+
+}
+.b1{
+    border-radius: 5%;
+    overflow: hidden;
+    border: none;
+    height: 5svh;
+    width: 5svw;
+    color: white; 
+    justify-content: center;
+    align-items: center;
+}
+.b2{
+    border-radius: 5%;
+    overflow: hidden;
+    border: none;
+    height: 5svh;
+    width: 5svw;
+    color: white; 
+    
+}
+.b3{
+    border-radius: 5%;
+    overflow: hidden;
+    border: none;
+    height: 5svh;
+    width: 5svw;
+    color: white;
+   
+}
+.b4{
+    border-radius: 5%;
+    overflow: hidden;
+    border: none;
+    height: 5svh;
+    width: 5svw;
+    color: white;
+     
+}
+.b5{
+    border-radius: 5%;
+    overflow: hidden;
+    border: none;
+    height: 5svh;
+    width: 5svw;
+    color: white;  
+    
+}
+.left{
+    height: 80svh;
+    width: 30svw;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+.pic{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 3px solid blue;
+    position: absolute;
+    top: 7%;
+    left: 33%;
+}
+.pic img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.name{
+    position: absolute;
+    top: 170px;
+    left: 132px;
+    color: black;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.job{
+    position: absolute;
+    top: 200px;
+    left: 132px;
+    color: rgb(111, 108, 108);
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Address{
+    position: absolute;
+    top: 230px;
+    left: 102px;
+    color: rgb(111, 108, 108);
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.b6{
+    border-radius: 5%;
+    overflow: hidden;
+    border: none;
+    height: 5svh;
+    width: 5svw;
+    position: absolute;
+    top: 270px;
+    left: 120px;
+}
+.b7{
+    border-radius: 5%;
+    overflow: hidden;
+    border: 1px solid blue;
+    height: 5svh;
+    width: 5svw;
+    position: absolute;
+    top: 270px;
+    left: 220px;
+}
+.right {
+    width: 65%; 
+    position: absolute;
+    right: 30px;
+    top: 110px;
+    background-color: whitesmoke;
+}
+
+.first {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-group h2 {
+    font-size: 16px;
+    margin: 0;
+    margin-right: 20px;
+    flex-basis: 120px;
+    flex-shrink: 0;
+}
+
+.form-group input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.save-changes {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    position: relative;
+    right: -140px;
+}
+.second {
+    position: absolute;
+    margin-bottom: 0%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+.second h2 {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.status-bar {
+    width: 100%;
+    background-color: #e9ecef;
+    height: 1px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.status-bar span {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    font-size: 10px;
+}
+
+.web-design {
+    background-color: #007bff;
+    width: 80%;
+    height: 10px;
+}
+
+.website-markup {
+    background-color: #dc3545;
+    width: 60%;
+    height: 10px;
+}
+
+.one-page {
+    background-color: #28a745;
+    width: 90%;
+    height: 10px;
+}
+
+.mobile-template {
+    background-color: #ffc107;
+    width: 70%;
+    height: 10px;
+}
+
+.backend-api {
+    background-color: #17a2b8;
+    width: 90%;
+    height: 10px;
+}
+.social-links {
+    position: relative;
+    top: 60%;
+    left: 2%;
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+

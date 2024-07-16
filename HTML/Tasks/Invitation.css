@@ -1,0 +1,26 @@
+.div1{
+    height: 1200px;
+    width: 70%;
+    align-items: center;
+    margin-left: 15%;
+    background-image: url("./WhatsApp\ Image\ 2024-06-18\ at\ 09.40.35_3ea467d6.jpg");
+    background-size: 100% 100%;
+    position: relative;
+    color: maroon;
+    font-weight: 20px;
+}
+.intro{
+    font-size: 30;
+    font-family:'Times New Roman', Times, serif;
+    color: maroon;
+    text-align: center;
+}
+.bride{
+    color: maroon;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center;
+}
+.with{
+    color: black;
+}

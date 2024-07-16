@@ -1,0 +1,87 @@
+.main{
+    height: 98svh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+.first{
+    height: 50%;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    animation-name: rotate3;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.second{
+    height: 50%;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    animation-name: rotate4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+   
+}
+.moon {
+   
+    width: 100px;
+    height: 100px;
+    background-color: rgb(244, 244, 242);
+    box-shadow: 3px 3px 5px grey;
+    border-radius: 50%;
+    animation-name: rotate1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+.sun {
+   
+    width: 100px;
+    height: 100px;
+    background-color: rgb(242, 89, 6);
+    box-shadow: 3px 3px 5px rgb(180, 151, 97);
+    border-radius: 50%;
+    animation-name: rotate2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes rotate1 {
+    0% {
+        transform:  rotate(0deg) translateX(200px);
+    }
+    100% {
+        transform: rotate(360deg) translateX(200px);
+    }
+}
+@keyframes rotate2 {
+    0% {
+        transform:  rotate(-180deg) translateX(200px)
+    }
+    100% {
+        transform:  rotate(180deg) translateX(200px)
+    }
+}
+@keyframes rotate4{
+    0%{
+        background: linear-gradient(rgb(67, 62, 62),grey);
+    }
+    100%{
+        background: linear-gradient(rgb(142, 111, 54),orange);
+    }
+}
+@keyframes rotate3{
+    0%{
+        background: linear-gradient(rgb(142, 111, 54),orange);
+    }
+    100%{
+        background: linear-gradient(rgb(67, 62, 62),grey);
+    }
+}

@@ -1,0 +1,46 @@
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0 10%;
+    font-size: 18px;
+    text-align: left;
+    border:2px solid black;
+    border-radius: 90%;
+}
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+    border: 1px solid black;
+}
+.styled-table th {
+    /* background: linear-gradient(rgb(68, 14, 36),rgb(118, 49, 77)); */
+    background: linear-gradient(skyblue,violet);
+    
+}
+.styled-table tr:nth-child(even) {
+    background-color: none;
+}
+  
+.styled-table button {
+    background-color: lightpurple;
+    border: none;
+    color: rgb(75, 75, 50);
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+}
+  
+.styled-table button:hover {
+    background-color: rgb(173, 182, 185);
+}
+.styled-table:hover{
+    /* background-color: rgb(118, 49, 77); */
+    background-color: violet;
+}
+/* .addButton{
+    background-color: skyblue;
+    color: black;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} */

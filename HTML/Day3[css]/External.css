@@ -1,0 +1,41 @@
+.ashu{
+    color: chocolate;
+    font-style: italic;
+}
+p{
+    color:crimson;
+    font: bold;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-decoration: underline red double 5px;
+}
+.ashu{
+    color: cornflowerblue !important;
+    line-height: 0.8;
+    font:900
+}
+#a{
+    font-size: 60px;
+    color:black;
+    font: larger;
+    text-shadow: 4px 4px 2px black;
+}
+.first{
+    color: hotpink;
+    text-transform: uppercase;
+    text-indent: 50px;
+    letter-spacing: 5px;
+    word-spacing: -2px;
+    white-space: nowrap;
+}
+.second{
+    font:bold;
+    background-color: black;
+    vertical-align:baseline;
+    text-decoration-line:overline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 25%;
+    text-decoration-thickness: 5px;
+    
+}
